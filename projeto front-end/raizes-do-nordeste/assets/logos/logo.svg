@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Logo Raizes do Nordeste</title>
+  <rect width="128" height="128" rx="22" fill="#c85f1a"/>
+  <circle cx="92" cy="34" r="16" fill="#efb43f"/>
+  <path d="M28 82c22-38 43-48 72-50-8 26-29 48-72 50Z" fill="#fff8ed"/>
+  <path d="M28 82c16-16 31-25 52-34" fill="none" stroke="#6f8f4e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M32 91h63" stroke="#fff8ed" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizes do Nordeste | Perfil</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/logos/logo.svg" alt=""><span>Raizes do Nordeste</span></a>
+        <nav class="nav" aria-label="Principal">
+          <a href="cardapio.html">Cardapio</a>
+          <a href="fidelidade.html">Fidelidade</a>
+          <a href="perfil.html">Perfil</a>
+          <a href="carrinho.html">Carrinho (<span data-cart-count>0</span>)</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-head">
+        <div>
+          <p class="eyebrow">Cliente</p>
+          <h1>Perfil do usuario</h1>
+          <p>Formulario visual para cadastro e atualizacao de dados do cliente.</p>
+        </div>
+      </section>
+      <form class="card grid grid-2">
+        <div class="field"><label for="profile-name">Nome</label><input class="input" id="profile-name" value="Cliente Exemplo"></div>
+        <div class="field"><label for="profile-email">E-mail</label><input class="input" id="profile-email" value="cliente@email.com"></div>
+        <div class="field"><label for="profile-phone">Telefone</label><input class="input" id="profile-phone" value="(81) 90000-0000"></div>
+        <div class="field"><label for="profile-city">Cidade</label><input class="input" id="profile-city" value="Recife"></div>
+        <div class="field" style="grid-column: 1 / -1"><label for="profile-address">Endereco</label><input class="input" id="profile-address" value="Rua exemplo, 123"></div>
+        <div class="actions" style="grid-column: 1 / -1"><button class="btn btn-primary" type="button">Salvar alteracoes</button></div>
+      </form>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

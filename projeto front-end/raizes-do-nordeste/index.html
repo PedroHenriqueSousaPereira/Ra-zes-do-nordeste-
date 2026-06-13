@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizes do Nordeste | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="auth-page">
+  <main class="hero">
+    <section class="hero-copy">
+      <p class="eyebrow">Rede de lanchonetes</p>
+      <h1>Raizes do Nordeste</h1>
+      <p class="lead">Protótipo front-end para pedidos digitais, acompanhamento do cliente e visão gerencial da operação.</p>
+      <div class="actions">
+        <a class="btn btn-secondary" href="cardapio.html">Ver cardapio</a>
+        <a class="btn btn-ghost" href="dashboard.html">Area gerencial</a>
+      </div>
+    </section>
+
+    <section class="auth-card" aria-labelledby="login-title">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logos/logo.svg" alt="">
+        <span>Raizes do Nordeste</span>
+      </a>
+      <h2 id="login-title" style="margin-top: 22px">Acessar sistema</h2>
+      <p>Escolha um perfil para simular a navegação. Não ha autenticação real neste protótipo.</p>
+      <form data-login-form>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input class="input" id="email" name="email" type="email" placeholder="cliente@email.com" required>
+        </div>
+        <div class="field">
+          <label for="password">Senha</label>
+          <input class="input" id="password" name="password" type="password" placeholder="Digite sua senha" required>
+        </div>
+        <div class="field">
+          <label for="role">Perfil de acesso</label>
+          <select class="select" id="role" name="role">
+            <option value="cliente">Cliente</option>
+            <option value="atendente">Atendente</option>
+            <option value="gerente">Gerente da unidade</option>
+            <option value="admin">Administrador da franquia</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Entrar</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

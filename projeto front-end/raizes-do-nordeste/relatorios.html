@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizes do Nordeste | Relatorios</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/logos/logo.svg" alt=""><span>Raizes do Nordeste</span></a>
+        <nav class="nav" aria-label="Principal">
+          <a href="dashboard.html">Dashboard</a>
+          <a href="relatorios.html">Relatorios</a>
+          <a href="estoque.html">Estoque</a>
+          <a href="cardapio.html">Cardapio</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-head">
+        <div>
+          <p class="eyebrow">Analise da unidade</p>
+          <h1>Relatorios</h1>
+          <p>Tabela de desempenho consolidado com vendas, pedidos e avaliacao media.</p>
+        </div>
+      </section>
+      <section class="card">
+        <table class="table">
+          <thead><tr><th>Unidade</th><th>Faturamento</th><th>Pedidos</th><th>Avaliacao</th></tr></thead>
+          <tbody data-reports></tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

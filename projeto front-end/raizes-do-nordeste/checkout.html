@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizes do Nordeste | Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/logos/logo.svg" alt=""><span>Raizes do Nordeste</span></a>
+        <nav class="nav" aria-label="Principal">
+          <a href="unidades.html">Unidades</a>
+          <a href="cardapio.html">Cardapio</a>
+          <a href="carrinho.html">Carrinho (<span data-cart-count>0</span>)</a>
+          <a href="pedido.html">Pedido</a>
+          <a href="dashboard.html">Gestao</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-head">
+        <div>
+          <p class="eyebrow">Finalizacao</p>
+          <h1>Checkout</h1>
+          <p>Pagamento e entrega sao apenas simulados. O pedido sera salvo localmente no navegador.</p>
+        </div>
+      </section>
+      <section class="split">
+        <form class="card" data-checkout-form>
+          <div class="field">
+            <label for="name">Nome do cliente</label>
+            <input class="input" id="name" required placeholder="Seu nome">
+          </div>
+          <div class="field">
+            <label for="delivery">Forma de recebimento</label>
+            <select class="select" id="delivery">
+              <option>Retirada na unidade</option>
+              <option>Entrega simulada</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="payment">Pagamento</label>
+            <select class="select" id="payment">
+              <option>Pix simulado</option>
+              <option>Cartao simulado</option>
+              <option>Pagamento na retirada</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="notes">Observacoes</label>
+            <textarea class="textarea" id="notes" placeholder="Ex.: sem cebola"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Confirmar pedido</button>
+        </form>
+        <aside class="card">
+          <h3>Resumo do pedido</h3>
+          <div data-checkout-summary></div>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/carrinho.js"></script>
+</body>
+</html>

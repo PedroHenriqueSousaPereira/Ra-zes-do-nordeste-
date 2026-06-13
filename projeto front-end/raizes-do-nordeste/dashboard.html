@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizes do Nordeste | Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/logos/logo.svg" alt=""><span>Raizes do Nordeste</span></a>
+        <nav class="nav" aria-label="Principal">
+          <a href="dashboard.html">Dashboard</a>
+          <a href="relatorios.html">Relatorios</a>
+          <a href="estoque.html">Estoque</a>
+          <a href="cardapio.html">Cardapio</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-head">
+        <div>
+          <p class="eyebrow">Area gerencial</p>
+          <h1>Dashboard</h1>
+          <p>Indicadores simulados para gerente e administrador da franquia.</p>
+        </div>
+      </section>
+      <section class="grid grid-4" data-dashboard></section>
+      <section class="grid grid-2" style="margin-top: 22px">
+        <article class="card"><h3>Campanha ativa</h3><p>Combo Sertao: sanduba de carne de sol + suco de caju com desconto visual no protótipo.</p><span class="tag green">Ativa</span></article>
+        <article class="card"><h3>Pedidos ativos</h3><p>Atendentes podem consultar pedidos em preparo e confirmar retirada presencial.</p><a class="btn btn-secondary" href="pedido.html">Ver pedidos</a></article>
+      </section>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
